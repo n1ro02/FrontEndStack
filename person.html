@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>个人卡片</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .card h1 {
+      margin: 10px 0 5px;
+      font-size: 40px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .socials {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .socials span {
+      font-size: 20px;
+      color: #555;
+      cursor: pointer;
+     
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="user_logo.png" alt="头像">
+    <h1>nero</h1>
+    <p>热爱编程和设计的开发者</p>
+    <div class="socials">
+      <span>🐦</span>
+      <span>📘</span>
+      <span>📷</span>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>前端入门示例</title>
+  <style>
+    p {
+      color: blue;
+      font-size: 18px;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>我是标题</h1>
+  <p>我是段落。</p>
+  <a href="https://example.com">点击跳转</a>
+  <img src="image.png" alt="图片">
+
+  <button>点击我</button>
+
+  <script>
+    const btn = document.querySelector("button");
+    btn.onclick = () => {
+      alert("你点击了按钮！");
+    };
+  </script>
+
+</body>
+</html>

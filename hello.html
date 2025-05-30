@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>关于我</title>
+  <style>
+    h1 {
+        color: darkgreen;
+        font-size: 100px;
+    }
+
+    img {
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    p {
+        color: rgb(162, 46, 46);
+    }
+     /* .box {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 30px auto 10px auto;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 110px;
+  } */
+    .container {
+      display: flex;             /* 启用 flex 布局 */
+      justify-content: center;   /* 水平居中整个子项 */
+      gap: 30px;                 /* 两个盒子之间的间距（等效 margin） */
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .green {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>我是___</h1>
+
+  <p>我是一名___，正在学习___。</p>
+
+  <img src="___" alt="我的图片" width="200">
+
+  <h2>我的兴趣</h2>
+  <ul>
+    <li>兴趣1</li>
+    <li>兴趣2</li>
+    <li>兴趣3</li>
+  </ul>
+
+  <p>联系我：<a href="___">点击这里</a></p>
+  <!-- <div class="box">我是内容</div> -->
+   <div class="container">
+    <div class="box red"></div>
+    <div class="box green"></div>
+  </div>
+</body>
+</html>
